@@ -11,12 +11,12 @@ wn.bgcolor("blue")
 turtle.forward(30)
 harp == True
 x == 1
-if harp == True
+if harp == True:
     turtle.forward(2)
     turtle.rotate(1)
     x == x + 1
     if x == 90:
-        then harp == False
+        harp == False
 turtle.penup
 for x in range(80,100):
     turtle.forward(10)
