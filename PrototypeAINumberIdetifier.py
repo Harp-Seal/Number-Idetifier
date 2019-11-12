@@ -1,5 +1,4 @@
 python -m pip install "git+https://github.com/orangese/easyai.git"
-
 from easyai import NN
 from easyai.layers import Input, FC
 from easyai.support.datasets import Builtins
