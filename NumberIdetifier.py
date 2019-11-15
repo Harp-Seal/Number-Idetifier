@@ -1,5 +1,5 @@
 import random 
-python -m pip install tensorflow
+python -m pip install "tensorflow"
 python -m pip install "git+https://github.com/orangese/easyai.git"
 from easyai import NN
 from easyai.layers import Input, FC
